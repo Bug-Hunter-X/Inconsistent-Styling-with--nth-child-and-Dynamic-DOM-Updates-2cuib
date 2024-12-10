@@ -1,0 +1,21 @@
+/* bugSolution.css */
+
+.list-item {
+  /* Base styles */
+}
+
+.list-item:nth-of-type(odd) {
+  background-color: #f0f0f0; /* More predictable than :nth-child */
+}
+
+/* JavaScript (example - needs to be integrated into the HTML)
+
+const listItems = document.querySelectorAll('.list-item');
+listItems.forEach((item, index) => {
+  if (index % 2 === 0) {
+    item.classList.add('even');
+  } else {
+    item.classList.add('odd');
+  }
+});
+*/
